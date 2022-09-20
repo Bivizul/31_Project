@@ -24,11 +24,6 @@ object Deps {
             val core get() = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VERSION"
         }
 
-        object Compose {
-            private val VERSION get() = "1.2.1"
-            val materialDesign get() = "androidx.compose.material:material:$VERSION"
-        }
-
     }
 
     object AndroidX {
@@ -42,7 +37,6 @@ object Deps {
             private const val VERSION = "1.0.0-alpha-04-native-compose"
             const val decompose = "com.arkivanov.decompose:decompose:$VERSION"
             const val extensionsComposeJetbrains = "com.arkivanov.decompose:extensions-compose-jetbrains:$VERSION"
-            const val extensionsComposeJetpack = "com.arkivanov.decompose:extensions-compose-jetpack:$VERSION"
             const val extensionsAndroid = "com.arkivanov.decompose:extensions-android:$VERSION"
         }
 
@@ -64,7 +58,7 @@ object Deps {
 
         object Util {
             const val onesignal = "com.onesignal:OneSignal:4.8.2"
-            const val landscapist = "com.github.skydoves:landscapist-coil:2.0.0"
+            const val landscapist = "com.github.skydoves:landscapist-fresco:2.0.0"
         }
     }
 }

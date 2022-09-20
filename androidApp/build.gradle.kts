@@ -50,19 +50,14 @@ android {
 
 dependencies {
     implementation(project(":shared"))
-//    implementation("androidx.compose.ui:ui:1.2.1")
-//    implementation("androidx.compose.ui:ui-tooling:1.2.1")
-//    implementation("androidx.compose.ui:ui-tooling-preview:1.2.1")
-//    implementation("androidx.compose.foundation:foundation:1.2.1")
-//    implementation("androidx.compose.material:material:1.2.1")
-//    implementation("androidx.activity:activity-compose:1.5.1")
     implementation(Deps.AndroidX.appCompat)
     implementation(Deps.AndroidX.activityCompose)
     implementation(compose.ui)
     implementation(compose.material)
     implementation(compose.foundation)
     implementation(Deps.JetBrains.Serialization.serializationJson)
-    implementation(Deps.Kmp.Util.onesignal)
     implementation(Deps.ArkIvanov.Decompose.decompose)
     implementation(Deps.ArkIvanov.Decompose.extensionsAndroid)
+    implementation(Deps.Kmp.Util.onesignal)
+    implementation(Deps.Kmp.Util.landscapist)
 }
